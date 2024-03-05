@@ -23,3 +23,4 @@ for nome in alunos:
 print("Exemplo 4.2 - Imprime posição e nome")
 for index, nome in enumerate(alunos):
     print(index, nome)
+

@@ -1,0 +1,28 @@
+'''
+ crie um programa que recebe 2 numeros reais como entrada e um operador matematico.
+ De acordo com o operador matemático fornecido o programa deve calcular e apresentar o resultado.
+ '''
+
+numero1 = float(input("insira o primeiro numero:"))
+
+numero2 = float(input("insira o sefundo numero"))
+
+op = input("insira operação matemática")
+
+if op == '*' :
+ resultado = numero1 *numero2
+
+ 
+elif op == '/':
+resultado = numero1 / numero2
+
+elif op == '+':
+resultado = numero1 + numero2
+
+elif op == '-'
+resultado = numero1 - numero2
+
+print("resultado é:" , resultado)
+
+
+
