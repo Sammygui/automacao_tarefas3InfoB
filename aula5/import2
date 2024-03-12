@@ -1,0 +1,9 @@
+from funcoes import login
+
+while True:
+    user = input("digite o nome de usuário")    
+    pwd = input("digite senha do usuário")
+    if login(user, pwd):
+        break
+    else:
+        print("Tente novamente")

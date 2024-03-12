@@ -1,8 +1,0 @@
-
-
-while true
-  wish = input("deseja continiar?" [S/N])
-  if whish == "N":
-     break 
- else 
-    print('faz oq precisa fazer')
